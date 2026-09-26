@@ -1,0 +1,17 @@
+# OTel Collector configuration — WP2 content goes here.
+# See IMPLEMENTATION_PLAN_WP2.md for full task breakdown.
+#
+# Structure to be built across WP2-A-01 through WP2-A-08:
+#   collector/
+#     base/           ← receivers, processors, exporters
+#     overlays/dev/
+#     overlays/staging/
+#     overlays/prod/
+#     policy/         ← redaction rules (CODEOWNERS: CISO)
+
+# Placeholder — replace with real config in WP2-A-02 Step 1.
+receivers: {}
+processors: {}
+exporters: {}
+service:
+  pipelines: {}
